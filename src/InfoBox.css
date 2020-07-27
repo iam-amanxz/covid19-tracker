@@ -1,0 +1,29 @@
+.infoBox {
+  cursor: pointer;
+}
+.infoBox--selected {
+  border-top: 10px solid orange;
+}
+.infoBox--red {
+  border-color: #ff0000;
+}
+
+.infoBox--orange {
+  border-color: #ffa800;
+}
+
+.infoBox--green {
+  border-color: #00ff47;
+}
+
+.infoBox--red .infoBox__cases {
+  color: #ff0000;
+}
+
+.infoBox--orange .infoBox__cases {
+  color: #ffa800;
+}
+
+.infoBox--green .infoBox__cases {
+  color: #00ff47;
+}
